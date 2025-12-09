@@ -1,0 +1,106 @@
+{
+  "jq": {
+    "binaries": [
+      {
+        "kind": "file",
+        "url": "https://github.com/jqlang/jq/releases/download/jq-1.7.1/jq-macos-amd64",
+        "sha256": "4155822bbf5ea90f5c79cf254665975eb4274d426d0709770c21774de5407443",
+        "os": "macos",
+        "cpu": "x86_64"
+      },
+      {
+        "kind": "file",
+        "url": "https://github.com/jqlang/jq/releases/download/jq-1.7.1/jq-macos-arm64",
+        "sha256": "0bbe619e663e0de2c550be2fe0d240d076799d6f8a652b70fa04aea8a8362e8a",
+        "os": "macos",
+        "cpu": "arm64"
+      },
+      {
+        "kind": "file",
+        "url": "https://github.com/jqlang/jq/releases/download/jq-1.7.1/jq-linux-amd64",
+        "sha256": "5942c9b0934e510ee61eb3e30273f1b3fe2590df93933a93d7c58b81d19c8ff5",
+        "os": "linux",
+        "cpu": "x86_64"
+      },
+      {
+        "kind": "file",
+        "url": "https://github.com/jqlang/jq/releases/download/jq-1.7.1/jq-windows-amd64.exe",
+        "sha256": "7451fbbf37feffb9bf262bd97c54f0da558c63f0748e64152dd87b0a07b6d6ab",
+        "os": "windows",
+        "cpu": "x86_64"
+      }
+    ]
+  },
+  "k9s": {
+    "binaries": [
+      {
+        "kind": "archive",
+        "url": "https://github.com/derailed/k9s/releases/download/v0.32.0/k9s_Darwin_amd64.tar.gz",
+        "sha256": "2e4ae6d7ff65d1a360ec6475a635ba563f98e5a7ba50e431d6c16555fb7cf0f2",
+        "file": "k9s",
+        "os": "macos",
+        "cpu": "x86_64"
+      },
+      {
+        "kind": "archive",
+        "url": "https://github.com/derailed/k9s/releases/download/v0.32.0/k9s_Darwin_arm64.tar.gz",
+        "sha256": "1bdf4632eef8226c84aa33239ca727a8a7499630cea91ac8d86caf41a02964e5",
+        "file": "k9s",
+        "os": "macos",
+        "cpu": "arm64"
+      },
+      {
+        "kind": "archive",
+        "url": "https://github.com/derailed/k9s/releases/download/v0.32.0/k9s_Linux_amd64.tar.gz",
+        "sha256": "3efa7e95695504d6fe8d12745368d8a908241c4949f631776aded2ddc506c6a6",
+        "file": "k9s",
+        "os": "linux",
+        "cpu": "x86_64"
+      },
+      {
+        "kind": "archive",
+        "url": "https://github.com/derailed/k9s/releases/download/v0.32.0/k9s_Windows_amd64.tar.gz",
+        "sha256": "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5",
+        "file": "k9s.exe",
+        "os": "windows",
+        "cpu": "x86_64"
+      }
+    ]
+  },
+  "ffmpeg": {
+    "binaries": [
+      {
+        "kind": "archive",
+        "url": "https://evermeet.cx/ffmpeg/ffmpeg-7.1.zip",
+        "sha256": "5a1303c7babaffff3c32c141ff49c7f44bd3b3b3e7dcea992fd7d04b6558ef43",
+        "file": "ffmpeg",
+        "os": "macos",
+        "cpu": "x86_64"
+      },
+      {
+        "kind": "archive",
+        "url": "https://evermeet.cx/ffmpeg/ffmpeg-7.1.zip",
+        "sha256": "5a1303c7babaffff3c32c141ff49c7f44bd3b3b3e7dcea992fd7d04b6558ef43",
+        "file": "ffmpeg",
+        "os": "macos",
+        "cpu": "arm64"
+      },
+      {
+        "kind": "archive",
+        "url": "https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-amd64-static.tar.xz",
+        "sha256": "abda8d77ce8309141f83ab8edf0596834087c52467f6badf376a6a2a4c87cf67",
+        "file": "ffmpeg-7.0.2-amd64-static/ffmpeg",
+        "os": "linux",
+        "cpu": "x86_64"
+      },
+      {
+        "kind": "archive",
+        "url": "https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-essentials.zip",
+        "sha256": "e2aaeaa0fdbc397d4794828086424d4aaa2102cef1fb6874f6ffd29c0b88b673",
+        "file": "ffmpeg-8.0.1-essentials_build/bin/ffmpeg.exe",
+        "os": "windows",
+        "cpu": "x86_64"
+      }
+    ]
+  }
+}
