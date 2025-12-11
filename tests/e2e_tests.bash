@@ -2,7 +2,7 @@
 set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-TOOLW="${SCRIPT_DIR}/../toolw"
+TOOLW="${SCRIPT_DIR}/../toolw.py"
 TOOLS_DIR="${SCRIPT_DIR}/tools"
 TEST_CACHE_DIR="/tmp/toolw-test-cache-$$"
 FAILURES=0
